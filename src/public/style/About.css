@@ -1,0 +1,66 @@
+.photo-main {
+    height: 110vh;
+    background-image:linear-gradient(to right bottom, #feffb384, #ffef7497) , url(../../assets/P7032006.JPG);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+    position: relative;
+  }
+
+  .text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-main-text{
+    color: #343a40;
+    text-transform: uppercase;
+}
+
+.about-text{
+    display: block;
+    font-size: 85px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.about-subtext{
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 13px;
+    margin-top: 20px;
+}
+
+.about-second-text{
+    height: 110vh;
+    background-color: #343a40;
+    clip-path: polygon(0 10vh, 100% 0, 100% 100vh, 0 100%);
+    position: relative;
+}
+
+.about-second-maintext{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: 80px;
+    font-weight: 100;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.about-second-subtext{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: 20px;
+    font-weight: 50;
+    color: #ffffff;
+    text-transform: uppercase;
+}

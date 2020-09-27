@@ -8,6 +8,9 @@ export const Gallery = () => {
             <p>
                 Galerija
             </p>
+            <div className = "images">
+            <img src={require("../../assets/hqdefault.jpg")} alt="no img" width="600px" height="auto"/>
+            </div>
         </div>
     )
 }

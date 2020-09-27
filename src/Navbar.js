@@ -6,8 +6,8 @@ export const Navbar = () => {
         <div>
             <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
             <div className="container">
-            <Link className="navbar-brand" to="/">
-                Lincura
+            <Link className="navbar-brand" to="/" >
+                <img src={require("./assets/clipart3024702.png")} alt="no img" width="50px" height="40px"/>
             </Link>
                 <button
                     className="navbar-toggler"
@@ -29,6 +29,9 @@ export const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/reference" >Reference</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/impressions" >Knjiga utisaka</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/contact" >Kontakt</Link>
