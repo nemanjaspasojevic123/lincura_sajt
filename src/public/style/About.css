@@ -1,9 +1,13 @@
+.about{
+    background-color: #eeeeee;
+}
+
 .photo-main {
     height: 110vh;
     background-image:linear-gradient(to right bottom, #feffb384, #ffef7497) , url(../../assets/P7032006.JPG);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
     position: relative;
   }
 
@@ -36,20 +40,18 @@
 
 .about-second-text{
     height: 110vh;
-    background-color: #343a40;
-    clip-path: polygon(0 10vh, 100% 0, 100% 100vh, 0 100%);
     position: relative;
 }
 
 .about-second-maintext{
     position: relative;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
     font-size: 80px;
     font-weight: 100;
-    color: #ffffff;
+    color: #343a40;
     text-transform: uppercase;
 }
 
@@ -58,9 +60,63 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: .3rem;
+    display: block;
+    font-size: 20px;
+    font-weight: 70;
+    color: #343a40;
+    text-transform: uppercase;
+}
+
+.photo-second{
+    height: 110vh;
+    background-image:linear-gradient(to right bottom, #93ffa963, #56d3696d) , url(../../assets/20190511_185110.jpg);
+    background-size: cover;
+    clip-path: polygon(0 20vh, 100% 0, 100% 90vh, 0 100%);
+    position: relative;
+}
+
+.about-third-text{
+    height: 110vh;
+    position: relative;
+}
+
+.about-third-maintext{
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: 80px;
+    font-weight: 100;
+    color: #343a40;
+    text-transform: uppercase;
+}
+
+.about-third-subtext{
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: .3rem;
     display: block;
     font-size: 20px;
     font-weight: 50;
-    color: #ffffff;
+    color: #343a40;
     text-transform: uppercase;
+}
+
+.about-footer{
+    height: 20vh;
+    position: relative;
+    background-color: #343a40;
+}
+
+.about-footer-text{
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
 }
