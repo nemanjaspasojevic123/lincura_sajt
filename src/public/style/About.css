@@ -1,3 +1,7 @@
+html{
+    font-size: 100%;
+}
+
 .about{
     background-color: #eeeeee;
 }
@@ -25,17 +29,17 @@
 
 .about-text{
     display: block;
-    font-size: 85px;
+    font-size: 5.3rem;
     font-weight: 400;
-    letter-spacing: 35px;
+    letter-spacing: 2.2rem;
 }
 
 .about-subtext{
     display: block;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
-    letter-spacing: 13px;
-    margin-top: 20px;
+    letter-spacing: .8rem;
+    margin-top: 1.25rem;
 }
 
 .about-second-text{
@@ -49,7 +53,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    font-size: 80px;
+    font-size: 5.3rem;
     font-weight: 100;
     color: #343a40;
     text-transform: uppercase;
@@ -62,13 +66,13 @@
     transform: translate(-50%, -50%);
     padding: .3rem;
     display: block;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 70;
     color: #343a40;
     text-transform: uppercase;
 }
 
-.photo-second{
+.photo-third{
     height: 110vh;
     background-image:linear-gradient(to right bottom, #93ffa963, #56d3696d) , url(../../assets/20190511_185110.jpg);
     background-size: cover;
@@ -76,31 +80,63 @@
     position: relative;
 }
 
-.about-third-text{
-    height: 110vh;
-    position: relative;
-}
-
 .about-third-maintext{
     position: relative;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    font-size: 80px;
+    font-size: 5.3rem;
     font-weight: 100;
     color: #343a40;
     text-transform: uppercase;
 }
 
-.about-third-subtext{
+.about-third-box{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: .3rem;
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-column-gap: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 70;
+    color: #343a40;
+    text-transform: uppercase;
+    
+}
+
+.about-doing-text{
+    background-color: rgba(255, 255, 255, 0.741);
+}
+
+.about-fourth-text{
+    height: 110vh;
+    position: relative;
+}
+
+.about-fourth-maintext{
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: 5.3rem;
+    font-weight: 100;
+    color: #343a40;
+    text-transform: uppercase;
+}
+
+.about-fourth-subtext{
     position: relative;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: .3rem;
     display: block;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 50;
     color: #343a40;
     text-transform: uppercase;
