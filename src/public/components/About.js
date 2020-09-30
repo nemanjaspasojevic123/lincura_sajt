@@ -19,6 +19,8 @@ export const About = () => {
                                     'Dobro došli',
                                     3000,
                                     'Zdravi bili',
+                                    3000,
+                                    'Živeli',
                                     3000]}
                             /></span>
                     </h1>
@@ -32,6 +34,7 @@ export const About = () => {
                 <span className="about-second-subtext">Jedna je od većih plantaža lincure u Srbiji, sa površinom nešto većom od 1 ha. </span>
                 <span className="about-second-subtext">Glavna prednost, a može se reći i jedinstvenost plantaže ogleda se u činjenici da ima sveobuhvatnu delatnost,</span>
                 <span className="about-second-subtext">Odnosno na plantaži se vrši sakupljanje semena, proizvodnja sadnog materijala kao i uzgoj višegodišnjih biljaka lincure, čiji koren se koristi u lekovite svrhe.</span>
+                <span className="about-second-subtext">Prvi zasadi sadnica lincure i preduseva heljde na plantaži podignuti su 2010. godine.</span>
             </div>
             <div className="photo-third">
                 <h1 className="about-third-maintext">
