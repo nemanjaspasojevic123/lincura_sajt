@@ -1,6 +1,20 @@
 html{
-    font-size: 100%;
-}
+    font-size: 100%}
+    @media only screen and (max-width: 75em) {
+        html {
+          font-size: 90%; } }
+      @media only screen and (max-width: 56.25em) {
+        html {
+          font-size: 80%; } }
+          @media only screen and (max-width: 37.5em) {
+            html {
+              font-size: 60%; } } 
+              @media only screen and (max-width: 21.75em) {
+                html {
+                  font-size: 55%; } }   
+      @media only screen and (min-width: 112.5em) {
+        html {
+          font-size: 120%; } }
 
 .about{
     background-color: #eeeeee;
@@ -82,7 +96,7 @@ html{
 
 .about-third-maintext{
     position: relative;
-    top: 20%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
@@ -94,7 +108,7 @@ html{
 
 .about-third-box{
     position: relative;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: .3rem;
@@ -111,13 +125,13 @@ html{
 }
 
 .about-fourth-text{
-    height: 110vh;
+    height: 130vh;
     position: relative;
 }
 
 .about-fourth-maintext{
     position: relative;
-    top: 15%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
@@ -129,7 +143,7 @@ html{
 
 .about-fourth-subtext{
     position: relative;
-    top: 25%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: .3rem;
@@ -141,7 +155,7 @@ html{
 }
 
 .about-footer{
-    height: 20vh;
+    height: 10vh;
     position: relative;
     background-color: #343a40;
 }
@@ -153,4 +167,6 @@ html{
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
+    font-size: 1.25rem;
+    text-transform: uppercase;
 }

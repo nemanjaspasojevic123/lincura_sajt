@@ -80,7 +80,7 @@ export const About = () => {
             </div>
             <div className="about-footer">
                 <p className="about-footer-text">
-                    designed by: studioMemi
+                    designed by: Nemanja Spasojević
                 </p>
             </div>
         </div>
