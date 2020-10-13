@@ -14,16 +14,20 @@ html{
                   font-size: 55%; } }   
       @media only screen and (min-width: 112.5em) {
         html {
-          font-size: 120%; } }
-
-.about{
-    background-color: #eeeeee;
+          font-size: 120%; } 
+          .products{
+            background-color: #eeeeee;
+        }
 }
 
+
+
 .product-one{
+    display: inline-block;
     background-color:#343a40;
     color: #eeeeee;
     height: 80vh;
+    width: 150vh;
     text-transform: uppercase;
 }
 
@@ -32,13 +36,15 @@ html{
     top: 15%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%);
+    transform: translate(-75%);
 }
 
 .product-two{
+    display: inline-block;
     background-color:#343a40;
     color: #eeeeee;
     height: 80vh;
+    width: 150vh;
     text-transform: uppercase;
     position: relative;
     transform: translate(0%, 10%);
@@ -49,13 +55,15 @@ html{
     top: 15%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%, -10%);
+    transform: translate(-75%, -10%);
 }
 
 .product-three{
+  display: inline-block;
     background-color:#343a40;
     color: #eeeeee;
     height: 80vh;
+    width: 150vh;
     text-transform: uppercase;
     position: relative;
     transform: translate(0%, 20%);
@@ -66,5 +74,5 @@ html{
     top: 15%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%, -10%);
+    transform: translate(-105%, -10%);
 }
