@@ -1,0 +1,111 @@
+.reference-one{
+    display: inline-block;
+    height: 24vh;
+    width: 80vw;
+    background-color:#343a40;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.reference-img-one{
+    float: left;
+    transform: translate(70%, 18%);
+}
+
+.name-one{
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+}
+
+.title-one{
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+}
+
+.reference-txt-one{
+    color: white;
+    width: 60rem;
+    float: right;
+    transform: translate(-15%);
+}
+
+.reference-two{
+    display: inline-block;
+    height: 24vh;
+    width: 80vw;
+    background-color:#343a40;
+    margin-top: 1%;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.reference-img-two{
+    float: right;
+    transform: translate(-70%, 18%);
+}
+
+.reference-txt-two{
+    color: white;
+    width: 60rem;
+    float: left;
+    transform: translate(15%);
+}
+
+.name-two{
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+
+}
+
+.title-two{
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.reference-three{
+    display: inline-block;
+    height: 24vh;
+    width: 80vw;
+    background-color:#343a40;
+    margin-top: 1%;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.reference-img-three{
+    float: left;
+    transform: translate(70%, 18%);
+}
+
+.reference-txt-three{
+    color: white;
+    width: 60rem;
+    float: right;
+    transform: translate(-15%);
+}
+
+.name-three{
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+
+}
+
+.title-three{
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+}

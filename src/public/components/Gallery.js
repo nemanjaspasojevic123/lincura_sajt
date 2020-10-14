@@ -19,12 +19,12 @@ const images = [
         thumbnail: photo_one,
     },
     {
-      original: photo_two,
-      thumbnail: photo_two,
+        original: photo_two,
+        thumbnail: photo_two,
     },
     {
-      original: photo_three,
-      thumbnail: photo_three,
+        original: photo_three,
+        thumbnail: photo_three,
     },
     {
         original: photo_four,
@@ -52,14 +52,13 @@ const images = [
     },
   ];
    
-  export class Gallery extends React.Component {
-    render() {
-      return (
+
+  export const Gallery = () => {
+    return (
       <>
-        <Navbar />
-        <ImageGallery items={images} />
-        <Footer />
-      </>
-      )
-    }
+      <Navbar />
+      <ImageGallery items={images} />
+      <Footer />
+    </>
+    )
   }

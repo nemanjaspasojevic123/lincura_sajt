@@ -8,15 +8,19 @@ export const Products = () => {
             <div className="products">
             <Navbar />
                 <div className="product-one">
-                    <span className="text-product-one">Koren Lincure</span>
+                    <div className="text-product-one">
+                    <h3>Koren Lincure</h3>
+                    <p>Osušen koren (Gentianae radix)</p>
+                    <p>Pakovanje: 100 g</p>
+                    </div>
                     <img src={require("../../assets/Lincura_sa_Tare.jpg")} alt="no img" className="product-one-img"></img>
                 </div>
                 <div className="product-two">
-                    <span className="text-product-two">Seme Lincure</span>
+                    <h3 className="text-product-two">Seme Lincure</h3>
                     <img src={require("../../assets/Lincura seme mockup.jpg")} alt="no img" className="product-two-img"></img>
                 </div>
                 <div className="product-three">
-                    <span className="text-product-three">Rakija sa korenom Lincure</span>
+                    <h3 className="text-product-three">Rakija sa korenom Lincure</h3>
                     <img src={require("../../assets/Lincura rakija.jpg")} alt="no img" className="product-three-img"></img>
                 </div>
                 <Footer /> 
