@@ -5,7 +5,10 @@ html{
           font-size: 90%; } }
       @media only screen and (max-width: 56.25em) {
         html {
-          font-size: 80%; } }
+          font-size: 80%; }
+        .product-one{
+          height: 80%;
+          width: 80%; } }
           @media only screen and (max-width: 37.5em) {
             html {
               font-size: 60%; } } 
@@ -15,20 +18,19 @@ html{
       @media only screen and (min-width: 112.5em) {
         html {
           font-size: 120%; } 
-          .products{
-            background-color: #eeeeee;
-        }
+  .products{
+    background-color: #eeeeee;
+    }
 }
-
-
 
 .product-one{
     display: inline-block;
     background-color:#343a40;
     color: #eeeeee;
     height: 80vh;
-    width: 150vh;
+    width: 80vw;
     text-transform: uppercase;
+    position: relative;
 }
 
 .product-one-img{
@@ -36,7 +38,14 @@ html{
     top: 15%;
     left: 50%;
     position: absolute;
-    transform: translate(-75%);
+    transform: translate(-75%, -10%);
+}
+
+.text-product-one{
+  top: 15%;
+  left: 79%;
+  position: absolute;
+  /* transform: translate(0%, 50%); */
 }
 
 .product-two{
@@ -44,10 +53,10 @@ html{
     background-color:#343a40;
     color: #eeeeee;
     height: 80vh;
-    width: 150vh;
+    width: 80vw;
     text-transform: uppercase;
     position: relative;
-    transform: translate(0%, 10%);
+    margin-top: 2%;
 }
 
 .product-two-img{
@@ -58,15 +67,22 @@ html{
     transform: translate(-75%, -10%);
 }
 
+.text-product-two{
+  top: 15%;
+  left: 79%;
+  position: absolute;
+  /* transform: translate(0%, 50%); */
+}
+
 .product-three{
   display: inline-block;
     background-color:#343a40;
     color: #eeeeee;
     height: 80vh;
-    width: 150vh;
+    width: 80vw;
     text-transform: uppercase;
     position: relative;
-    transform: translate(0%, 20%);
+    margin-top: 2%;
 }
 
 .product-three-img{
@@ -75,4 +91,11 @@ html{
     left: 50%;
     position: absolute;
     transform: translate(-105%, -10%);
+}
+
+.text-product-three{
+  top: 15%;
+  left: 67%;
+  position: absolute;
+  /* transform: translate(0%, 50%); */
 }

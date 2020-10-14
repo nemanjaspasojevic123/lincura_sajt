@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar } from '../../Navbar';
 import '../style/About.css';
 import Typical from 'react-typical';
+import { Footer } from '../../Footer';
 
 export const About = () => {
     return (
@@ -78,11 +79,7 @@ export const About = () => {
                 <span className="about-fourth-subtext">Od davnina je lekovitost lincure poznata u narodu i neretko se ona u prošlosti smatrala čudotvornom isceliteljkom tadašnjeg vremena.</span>
                 <span className="about-fourth-subtext">Verovanje u njenu lekovitost nije umanjena sve do današnjih dana.</span>
             </div>
-            <div className="about-footer">
-                <p className="about-footer-text">
-                    designed by: Nemanja Spasojević
-                </p>
-            </div>
+            <Footer />
         </div>
     )
 }

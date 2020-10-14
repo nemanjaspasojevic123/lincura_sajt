@@ -1,4 +1,5 @@
 import React from 'react';
+import { Footer } from '../../Footer';
 import { Navbar } from '../../Navbar';
 
 export const Impressions = () => {
@@ -8,6 +9,7 @@ export const Impressions = () => {
             <p>
                 Knjiga utisaka
             </p>
+            <Footer />
         </div>
     )
 }
