@@ -154,19 +154,3 @@ html{
     text-transform: uppercase;
 }
 
-.about-footer{
-    height: 10vh;
-    position: relative;
-    background-color: #343a40;
-}
-
-.about-footer-text{
-    color: #fff;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-}

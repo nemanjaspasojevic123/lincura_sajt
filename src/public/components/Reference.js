@@ -1,4 +1,5 @@
 import React from 'react';
+import { Footer } from '../../Footer';
 import { Navbar } from '../../Navbar';
 
 export const Reference = () => {
@@ -8,6 +9,7 @@ export const Reference = () => {
             <p>
                 Reference
             </p>
+            <Footer />
         </div>
     )
 }
