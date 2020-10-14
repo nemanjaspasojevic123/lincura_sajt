@@ -1,0 +1,29 @@
+.contact {
+    display: inline-block;
+    height: 20vh;
+    width: 55vw;
+    background-color:#343a40;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.contact-form{
+    color: white;
+    position: relative;
+    display: block;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-us{
+    display: inline-block;
+    height: 60vh;
+    width: 60vw;
+    background-color:#343a40;
+    margin-top: 3%;
+}
+
+.contact-us-form{
+    position: relative;
+    color: white;
+}

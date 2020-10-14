@@ -5,10 +5,7 @@ html{
           font-size: 90%; } }
       @media only screen and (max-width: 56.25em) {
         html {
-          font-size: 80%; }
-        .product-one{
-          height: 80%;
-          width: 80%; } }
+          font-size: 80%; } }
           @media only screen and (max-width: 37.5em) {
             html {
               font-size: 60%; } } 
@@ -26,76 +23,77 @@ html{
 .product-one{
     display: inline-block;
     background-color:#343a40;
-    color: #eeeeee;
-    height: 80vh;
-    width: 80vw;
+    height: 50vh;
+    width: 70vw;
     text-transform: uppercase;
     position: relative;
 }
 
 .product-one-img{
-    height: 70vh;
-    top: 15%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-75%, -10%);
+    height: 40vh;
+    float: left;
+    top: 10%;
+    left: 5%;
+    position: relative;
 }
 
 .text-product-one{
+  display: inline-block;
   top: 15%;
-  left: 79%;
+  left: 50%;
   position: absolute;
-  /* transform: translate(0%, 50%); */
+  color: #eeeeee;
 }
+
 
 .product-two{
     display: inline-block;
     background-color:#343a40;
-    color: #eeeeee;
-    height: 80vh;
-    width: 80vw;
+    height: 50vh;
+    width: 70vw;
     text-transform: uppercase;
     position: relative;
     margin-top: 2%;
 }
 
 .product-two-img{
-    height: 70vh;
-    top: 15%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-75%, -10%);
+  height: 40vh;
+  float: left;
+  top: 10%;
+  left: 5%;
+  position: relative;
 }
 
 .text-product-two{
+  display: inline-block;
   top: 15%;
-  left: 79%;
+  left: 50%;
   position: absolute;
-  /* transform: translate(0%, 50%); */
+  color: #eeeeee;
 }
 
 .product-three{
   display: inline-block;
     background-color:#343a40;
-    color: #eeeeee;
-    height: 80vh;
-    width: 80vw;
+    height: 50vh;
+    width: 70vw;
     text-transform: uppercase;
     position: relative;
     margin-top: 2%;
 }
 
 .product-three-img{
-    height: 70vh;
-    top: 15%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-105%, -10%);
+  height: 40vh;
+  float: left;
+  top: 10%;
+  left: 5%;
+  position: relative;
 }
 
 .text-product-three{
+  display: inline-block;
   top: 15%;
-  left: 67%;
+  left: 50%;
   position: absolute;
-  /* transform: translate(0%, 50%); */
+  color: #eeeeee;
 }
