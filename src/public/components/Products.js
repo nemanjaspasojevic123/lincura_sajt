@@ -14,7 +14,11 @@ import {
     MDBCardFooter,
     MDBTooltip,
     MDBBtn,
-    MDBContainer, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter
+    MDBContainer, 
+    MDBModal, 
+    MDBModalBody, 
+    MDBModalHeader, 
+    MDBModalFooter
 } from 'mdbreact';
 
 export const Products = () => {
@@ -32,9 +36,11 @@ export const Products = () => {
         [modalNumber]: !loading[modalNumber]
         });
     }
+
     return (
         <>
             <Navbar />
+            <div className="products">
             <section className='text-center my-5'>
                 <h2 className='h1-responsive font-weight-bold text-center my-5'>Naši proizvodi</h2>
                 <p className='black-text text-center w-responsive mx-auto mb-5'>
@@ -52,9 +58,9 @@ export const Products = () => {
                                 overlay='white-slight'
                             />
                             <MDBCardBody cascade className='text-center'>
-                                <a href='#!' className='grey-text'>
+                                <span className='grey-text'>
                                     <h5>LINCURA</h5>
-                                </a>
+                                </span>
                                 <MDBCardTitle>
                                     <strong>
                                         <h3>Koren lincure</h3>
@@ -98,9 +104,9 @@ export const Products = () => {
                                 overlay='white-slight'
                             />
                             <MDBCardBody cascade className='text-center'>
-                                <a href='#!' className='grey-text'>
+                                <span className='grey-text'>
                                     <h5>LINCURA</h5>
-                                </a>
+                                </span>
                                 <MDBCardTitle>
                                     <strong>
                                         <h3>Seme lincure</h3>
@@ -112,7 +118,10 @@ export const Products = () => {
                                     <MDBModal isOpen={loading.modal2} toggle={toggle(2)}>
                                         <MDBModalHeader toggle={toggle(2)}>Seme lincure</MDBModalHeader>
                                         <MDBModalBody>
-                                        ...
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                         </MDBModalBody>
                                         <MDBModalFooter>
                                             <MDBBtn outline color="black" onClick={toggle(2)}>Zatvori</MDBBtn>
@@ -143,9 +152,9 @@ export const Products = () => {
                                 overlay='white-slight'
                             />
                             <MDBCardBody cascade className='text-center'>
-                                <a href='#!' className='grey-text'>
+                            <span className='grey-text'>
                                     <h5>LINCURA</h5>
-                                </a>
+                                </span>
                                 <MDBCardTitle>
                                     <strong>
                                         <h3>Rakija sa korenom lincure</h3>
@@ -157,7 +166,10 @@ export const Products = () => {
                                     <MDBModal isOpen={loading.modal3} toggle={toggle(3)}>
                                         <MDBModalHeader toggle={toggle(3)}>Rakija sa korenom lincure</MDBModalHeader>
                                         <MDBModalBody>
-                                        ...
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                         </MDBModalBody>
                                         <MDBModalFooter>
                                             <MDBBtn outline color="black" onClick={toggle(3)}>Zatvori</MDBBtn>
@@ -188,9 +200,9 @@ export const Products = () => {
                                 overlay='white-slight'
                             />
                             <MDBCardBody cascade className='text-center'>
-                                <a href='#!' className='grey-text'>
+                            <span className='grey-text'>
                                     <h5>LINCURA</h5>
-                                </a>
+                                </span>
                                 <MDBCardTitle>
                                     <strong>
                                         <h3>Sadnice lincure</h3>
@@ -202,7 +214,10 @@ export const Products = () => {
                                     <MDBModal isOpen={loading.modal4} toggle={toggle(4)}>
                                         <MDBModalHeader toggle={toggle(4)}>Sadnice lincure</MDBModalHeader>
                                         <MDBModalBody>
-                                        ...
+                                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                         </MDBModalBody>
                                         <MDBModalFooter>
                                             <MDBBtn outline color="black" onClick={toggle(4)}>Zatvori</MDBBtn>
@@ -225,6 +240,7 @@ export const Products = () => {
                     </MDBCol>
                 </MDBRow>
             </section>
+            </div>
             <Footer />
         </>
     );

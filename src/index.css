@@ -19,4 +19,21 @@ code {
     monospace;
 }
 
+html{
+  font-size: 100%}
+  @media only screen and (max-width: 75em) {
+      html {
+        font-size: 90%; } }
+    @media only screen and (max-width: 56.25em) {
+      html {
+        font-size: 80%; } }
+        @media only screen and (max-width: 37.5em) {
+          html {
+            font-size: 60%; } } 
+            @media only screen and (max-width: 21.75em) {
+              html {
+                font-size: 55%; } }   
+    @media only screen and (min-width: 112.5em) {
+      html {
+        font-size: 120%; } }
 
