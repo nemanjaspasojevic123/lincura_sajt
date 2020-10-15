@@ -1,0 +1,15 @@
+.wrap-impressions{
+    display: inline-block;
+    width: 50%;
+}
+
+.impressions{
+    display: inline-block;
+    height: 60vh;
+    width: 80vw;
+    background-color:#343a40;
+    border: 5px solid red;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5%;
+}

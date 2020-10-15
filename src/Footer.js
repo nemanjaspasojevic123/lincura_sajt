@@ -7,7 +7,7 @@ export  const Footer = () => {
   return (
     <MDBFooter color="stylish-color-dark" className="page-footer font-small pt-4 mt-4">
       <div className="text-center">
-        <img src={require("../src/assets/Lincura final.png")} alt="noimg" height="100px"></img>
+        <img src={require("../src/assets/Lincura final.png")} alt="noimg" height="80px"></img>
       </div>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
