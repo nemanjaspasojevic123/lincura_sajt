@@ -57,7 +57,7 @@ html{
 }
 
 .about-second-text{
-    height: 110vh;
+    height: 80vh;
     position: relative;
 }
 
@@ -75,7 +75,7 @@ html{
 
 .about-second-subtext{
     position: relative;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: .3rem;
@@ -143,7 +143,7 @@ html{
 
 .about-fourth-subtext{
     position: relative;
-    top: 5%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: .3rem;

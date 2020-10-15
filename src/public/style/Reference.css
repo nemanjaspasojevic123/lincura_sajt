@@ -1,111 +1,81 @@
 .reference-one{
     display: inline-block;
-    height: 24vh;
-    width: 80vw;
+    width: 75%;
     background-color:#343a40;
-    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    border-radius: 5px white;
+    /* clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%); */
 }
 
-.reference-img-one{
+.reference-one-form{
     float: left;
-    transform: translate(70%, 18%);
 }
 
 .name-one{
     color: white;
-    position: relative;
-    top: 10%;
-    left: 50%;
-    transform: translate(-80%, -50%);
 }
 
 .title-one{
     color: white;
-    position: relative;
-    top: 10%;
-    left: 50%;
-    transform: translate(-80%, -50%);
 }
 
 .reference-txt-one{
     color: white;
-    width: 60rem;
-    float: right;
-    transform: translate(-15%);
+    display: block;
+    transform: translate(25%);
+    width: 70%;
 }
 
 .reference-two{
     display: inline-block;
-    height: 24vh;
-    width: 80vw;
+    width: 75%;
     background-color:#343a40;
     margin-top: 1%;
-    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    /* clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%); */
 }
 
-.reference-img-two{
+.reference-two-form{
     float: right;
-    transform: translate(-70%, 18%);
 }
 
-.reference-txt-two{
-    color: white;
-    width: 60rem;
-    float: left;
-    transform: translate(15%);
-}
 
 .name-two{
     color: white;
-    position: relative;
-    top: 10%;
-    left: 50%;
-    transform: translate(-20%, -50%);
-
 }
 
 .title-two{
     color: white;
-    position: relative;
-    top: 10%;
-    left: 50%;
-    transform: translate(-20%, -50%);
+}
+
+.reference-txt-two{
+    color: white;
+    display: block;
+    transform: translate(20%);
+    width: 60%;
 }
 
 .reference-three{
     display: inline-block;
-    height: 24vh;
-    width: 80vw;
+    width: 75%;
     background-color:#343a40;
     margin-top: 1%;
-    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    /* clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%); */
 }
 
-.reference-img-three{
+.reference-three-form{
     float: left;
-    transform: translate(70%, 18%);
 }
 
 .reference-txt-three{
     color: white;
-    width: 60rem;
-    float: right;
-    transform: translate(-15%);
+    display: block;
+    transform: translate(25%);
+    width: 70%;
 }
 
 .name-three{
     color: white;
-    position: relative;
-    top: 10%;
-    left: 50%;
-    transform: translate(-80%, -50%);
-
 }
 
 .title-three{
     color: white;
-    position: relative;
-    top: 10%;
-    left: 50%;
-    transform: translate(-80%, -50%);
 }

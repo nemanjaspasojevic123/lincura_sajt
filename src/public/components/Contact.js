@@ -9,7 +9,7 @@ export const Contact = () => {
         <div>
             <Navbar />
             <div className="contact">
-                <span className="contact-form">Telefon za naručivanje proizvoda: 065/4064342</span>
+                <span className="contact-form">Tel. za naručivanje proizvoda: 065/4064342</span>
                 <span className="contact-form">Lokacija plantaže: Kaluđerske bare, Tara</span>
                 <span className="contact-form">Adresa: Rade Nikolić 11/1, Bajina Bašta</span>
                 <span className="contact-form">Radno vreme od 09 do 20, subota 9 do 13</span>
@@ -20,7 +20,7 @@ export const Contact = () => {
                     <MDBRow>
                         <MDBCol md="12">
                             <form>
-                                <p className="h4 text-center mb-4">Kontaktirajte nas</p>
+                                <p className="h4 text-center mb-4">Kontaktirajte nas i poručite</p>
                                 <label htmlFor="defaultFormContactNameEx" className="grey-text">
                                 Vaše ime (obavezno)
                                 </label>
