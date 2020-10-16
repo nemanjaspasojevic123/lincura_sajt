@@ -37,3 +37,7 @@ html{
       html {
         font-size: 120%; } }
 
+
+  .navbar {
+    border-bottom:5px solid red;
+  }

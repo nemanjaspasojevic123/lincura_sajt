@@ -80,7 +80,7 @@ export const Products = () => {
                                 </MDBContainer>
                                 <MDBCardFooter className='px-1'>
                                     <span className='float-left font-weight-bold'>
-                                        <strong><h3>250 RSD</h3></strong>
+                                        <strong><h4>250 RSD</h4></strong>
                                     </span>
                                     <span className='float-right'>
                                     <MDBBtn outline color="red" className='red-text fa fa-shopping-cart mr-1'> Poruči</MDBBtn>
@@ -125,7 +125,7 @@ export const Products = () => {
                                 </MDBContainer>
                                 <MDBCardFooter className='px-1'>
                                     <span className='float-left font-weight-bold'>
-                                        <strong><h3>2200 RSD</h3></strong>
+                                        <strong><h4>2200 RSD</h4></strong>
                                     </span>
                                     <span className='float-right'>
                                     <MDBBtn outline color="red" className='red-text fa fa-shopping-cart mr-1'> Poruči</MDBBtn>
@@ -170,7 +170,7 @@ export const Products = () => {
                                 </MDBContainer>
                                 <MDBCardFooter className='px-1'>
                                     <span className='float-left font-weight-bold'>
-                                        <strong><h3>1000 RSD</h3></strong>
+                                        <strong><h4>1000 RSD</h4></strong>
                                     </span>
                                     <span className='float-right'>
                                     <MDBBtn outline color="red" className='red-text fa fa-shopping-cart mr-1'> Poruči</MDBBtn>
@@ -215,7 +215,7 @@ export const Products = () => {
                                 </MDBContainer>
                                 <MDBCardFooter className='px-1'>
                                     <span className='float-left font-weight-bold'>
-                                        <strong><h3>30 RSD/KOM</h3></strong>
+                                        <strong><h4>30 RSD/KOM</h4></strong>
                                     </span>
                                     <span className='float-right'>
                                     <MDBBtn outline color="red" className='red-text fa fa-shopping-cart mr-1'> Poruči</MDBBtn>
