@@ -13,7 +13,7 @@ export const Contact = () => {
                 <span className="contact-form">Lokacija plantaže: Kaluđerske bare, Tara</span>
                 <span className="contact-form">Adresa: Rade Nikolić 11/1, Bajina Bašta</span>
                 <span className="contact-form">Radno vreme od 09 do 20, subota 9 do 13</span>
-                <span className="contact-form">e-mail: lincura@gmail.com</span>
+                <span className="contact-form">e-mail: lincurasatare@gmail.com</span>
             </div>
             <div className="contact-us">
                 <MDBContainer className="contact-us-form">
